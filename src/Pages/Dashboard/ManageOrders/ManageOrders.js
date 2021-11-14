@@ -21,7 +21,7 @@ function ManageOrders() {
 
   // const status = "apporved";
   const handleUpdate = (id) => {
-    fetch(`http://localhost:5000/updateStatus/${id}`, {
+    fetch(`https://polar-caverns-73348.herokuapp.com/updateStatus/${id}`, {
       method: "PUT",
       headers: { "content-type": "application/json" },
       body: JSON.stringify({ status }),
