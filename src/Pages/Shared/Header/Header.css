@@ -1,0 +1,20 @@
+.nav__link {
+  font-family: "Poppins", sans-serif;
+  color: #02010c;
+  font-weight: 600;
+}
+.brand__icon img {
+  height: 50px;
+  padding-bottom: 3px !important;
+}
+.nav__link:hover {
+  color: #e81938;
+}
+
+.nav-link:focus {
+  color: #e81938 !important;
+}
+.username {
+  font-weight: 500;
+  color: #07003b;
+}
