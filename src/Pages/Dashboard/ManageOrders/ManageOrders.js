@@ -10,7 +10,7 @@ function ManageOrders() {
   const { user } = useAuth();
 
   useEffect(() => {
-    fetch(`http://localhost:5000/myOrders`)
+    fetch(`https://polar-caverns-73348.herokuapp.com/myOrders`)
       .then((res) => res.json())
       .then((data) => setOrders(data));
   }, [user]);
